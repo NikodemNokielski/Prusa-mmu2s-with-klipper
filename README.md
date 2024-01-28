@@ -27,7 +27,9 @@ into your macros.cfg (add at the end of the file)
 7. Change file directory in macros to your file directory fir every file:
 /home/NikodemPrusa/klipper/klippy/myMacros/MMU2s/TS0.py
 
-8. Using Arduino Ide compile and load sketches into the MMU (chose arduino Leonardo as a microcontroller)
+8. Using Arduino Ide compile and load sketches into the MMU (chose arduino Leonardo as a microcontroller).
+
+The system still has a lot of bugs. I have no idea how to change if filament is loaded into the nozzle. Also the buttons are disabled. Sometimes it won't load filament at the start of the print due to the problem with reloading the same filament twice. You also can disabled print pause while filament runout detection to save some time.
 
 Probably i will upload a video later.
 
