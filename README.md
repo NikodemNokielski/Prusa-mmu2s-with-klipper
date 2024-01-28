@@ -1,11 +1,35 @@
 # Prusa-mmu2s-with-klipper
 Prusa mmu2s with klipper
 
-I will write instructions on how to install it in my free time
+1. Install Kiauh:
+https://github.com/dw-0/kiauh
 
-https://github.com/dw-0/kiauh/blob/master/docs/gcode_shell_command.md
+2. Using WinSCP copy this file:
+https://github.com/dw-0/kiauh/blob/master/resources/gcode_shell_command.py
+into direction:
+/home/pi/klipper/klippy/extras/gcode_shell_command.py
 
-https://pyserial.readthedocs.io/en/latest/shortintro.html
+3. Get python2 and pip2:
+https://linux.how2shout.com/how-to-install-python-2-7-on-ubuntu-20-04-lt
+
+4. Install PySerial:
+https://pyserial.readthedocs.io/en/latest/pyserial.html#overview
+
+5. Copy this folder:
+https://github.com/NikodemNokielski/Prusa-mmu2s-with-klipper/tree/main/myMacros/MMU2s
+to the directory (using WinSCP):
+/home/NikodemPrusa/klipper/klippy
+ 
+6. Copy:
+https://github.com/NikodemNokielski/Prusa-mmu2s-with-klipper/blob/main/macros.cfg
+into your macros.cfg (add at the end of the file)
+
+7. Change file directory in macros to your file directory fir every file:
+/home/NikodemPrusa/klipper/klippy/myMacros/MMU2s/TS0.py
+
+8. Using Arduino Ide compile and load sketches into the MMU (chose arduino Leonardo as a microcontroller)
+
+Probably i will upload a video later.
 
 ![image](https://github.com/NikodemNokielski/Prusa-mmu2s-with-klipper/assets/67480958/04858723-99d5-48a9-be44-70bf6a57c24a)
 
