@@ -1,3 +1,7 @@
+If you have any questions:
+https://klipper.discourse.group/t/mmu2s-with-klipper/10658/11
+
+
 # Prusa-mmu2s-with-klipper
 Prusa mmu2s with klipper
 
